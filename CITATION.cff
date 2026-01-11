@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "Automatic Weld Defect Detection Using YOLO11: A Deep Learning Approach for Industrial Quality Assurance."
+authors:
+  - family-names: Geddam
+    given-names: Srujan Hrudhay
+year: 2026
+license: MIT
+repository-code: https://github.com/SrujanHrudhay/automatic-weld-defect-detection-using-yolo11s
