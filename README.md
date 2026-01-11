@@ -51,35 +51,19 @@ Dataset organization instructions are provided in [data/README.md](data/README.m
 ## Repository Structure
 
 automatic-weld-defect-detection-using-yolo11s/  
-├── **_configs/_** # Model and dataset configuration files  
-├── **_data/_** # Dataset instructions and structure    
-├── **_experiments/_** # Experiment logs and summaries  
-├── **_results/_** # Generated figures and tables  
-├── **_src/_** # Training, evaluation, and inference scripts  
-├── **_weights/_** # Trained model weights (or download links)  
-├── **_README.md_**   
-├── **_requirements.txt_**  
-├── **_LICENSE_**  
-└── **_CITATION.cff_**  
-
----
-
-
-## Repository Structure
-
-automatic-weld-defect-detection-using-yolo11s/  
 ├── **_[configs/](configs)_** # Model and dataset configuration files  
 ├── **_[data/](data)_** # Dataset instructions and structure    
 ├── **_[experiments/](experiments)_** # Experiment logs and summaries  
 ├── **_[results/](results)_** # Generated figures and tables  
 ├── **_[src/](src)_** # Training, evaluation, and inference scripts  
-├── **_[weights/](weights)/_** # Trained model weights (or download links)  
-├── **_[LICENSE](LICENSE)_**   
+├── **_[weights/](weights)_** # Trained model weights (or download links)  
+├── [![Static Badge](https://img.shields.io/badge/README.md-darkgreen)
+](README.md)  
 ├── **_[requirements.txt](requirements.txt)_**  
 ├── **_[LICENSE](LICENSE)_**  
-└── **_[CITATION.cff](CITATION,cff)_**  
+└── **_[CITATION.cff](CITATION.cff)_**  
 
-
+---
 
 ## Installation
 
@@ -121,11 +105,6 @@ python src/infer.py --weights weights/best.pt --source sample_images/
 All experiments were conducted with fixed configurations, documented
 hyperparameters, and consistent dataset splits to ensure reproducibility
 of the reported results.
-
-## License
-
-This project is licensed under the MIT License.
-See the LICENSE file for details.
 
 ## Citation
 If you use this work, please cite:
