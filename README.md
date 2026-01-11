@@ -71,3 +71,51 @@ Clone the repository and install dependencies:
 git clone https://github.com/SrujanHrudhay/automatic-weld-defect-detection-using-yolo11s.git
 cd automatic-weld-defect-detection-using-yolo11s
 pip install -r requirements.txt
+```
+### Tested Environment
+ + Python 3.10+
+ + PyTorch 2.x
+ + Ultralytics YOLO
+ + CUDA 11.8 (GPU optional but recommended)
+
+## Training
+To train the YOLO11s model:
+
+```bash
+python src/train.py \
+  --config configs/yolo11s.yaml \
+  --data configs/dataset.yaml \
+  --epochs 100 \
+  --batch 16
+```
+## Evaluation
+```bash
+python src/evaluate.py --weights weights/best.pt`
+```
+Evaluation metrics include Precision, Recall, mAP@0.5, and confusion matrices.
+
+## Inference
+```bash
+python src/infer.py --weights weights/best.pt --source sample_images/
+```
+## Reproducibility Statement
+
+All experiments were conducted with fixed configurations, documented
+hyperparameters, and consistent dataset splits to ensure reproducibility
+of the reported results.
+
+## License
+
+This project is licensed under the MIT License.
+See the LICENSE file for details.
+
+## Citation
+If you use this work, please cite:
+
+```bibtex
+@article{hrudhay2026weld,
+  title={Automatic Weld Defect Detection Using YOLO11s},
+  author={Hrudhay, Srujan},
+  year={2026}
+}
+```
