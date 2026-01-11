@@ -1,2 +1,73 @@
-# automatic-weld-defect-detection-using-yolo11s
-Automated welding defect detection using deep learning (YOLO 11s) model.
+# Automatic Weld Defect Detection Using YOLO11s
+
+This repository contains the official implementation of the research project
+_**" Automatic Weld Defect Detection Using YOLO: A Deep Learning Approach to Industial Quality Assurance "**_, developed for academic
+and reproducibility purposes.
+
+The work proposes a deep learning–based computer vision system for detecting
+and classifying welding defects from industrial weld images using a YOLO-based
+object detection framework.
+
+---
+
+## Method Overview
+
+This work presents a single-stage deep learning–based object detection
+approach for automated welding defect identification.
+
+A YOLO11s model is trained to directly detect and classify six common
+welding defect types from input weld images in a single forward pass.
+Each defect instance is localized and assigned one of the predefined
+defect classes.
+
+YOLO11s was selected due to its favorable trade-off between detection
+accuracy, computational efficiency, and suitability for small-scale
+industrial datasets.
+
+---
+
+## Dataset
+
+The dataset used in this study consists of 299 annotated welding images.
+Each image contains one or more instances of welding defects labeled
+into six categories:
+
+- Crack
+- Porosity
+- Lack of Fusion
+- Slag Inclusion
+- Undercut
+- Spatter
+
+The dataset size reflects real-world data scarcity commonly encountered
+in industrial inspection scenarios.
+
+Due to licensing restrictions, the dataset is not redistributed.
+Dataset organization instructions are provided in `data/README.md`.
+
+---
+
+## Repository Structure
+
+automatic-weld-defect-detection-using-yolo11s/  
+├── **_configs/_** # Model and dataset configuration files  
+├── **_data/_** # Dataset instructions and structure    
+├── **_experiments/_** # Experiment logs and summaries  
+├── **_results/_** # Generated figures and tables  
+├── **_src/_** # Training, evaluation, and inference scripts  
+├── **_weights/_** # Trained model weights (or download links)  
+├── **_README.md_**   
+├── **_requirements.txt_**  
+├── **_LICENSE_**  
+└── **_CITATION.cff_**  
+
+---
+
+## Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/SrujanHrudhay/automatic-weld-defect-detection-using-yolo11s.git
+cd automatic-weld-defect-detection-using-yolo11s
+pip install -r requirements.txt
