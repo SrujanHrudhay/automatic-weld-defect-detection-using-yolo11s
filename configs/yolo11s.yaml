@@ -1,6 +1,6 @@
 model: yolo11s.pt
 imgsz: 640
-epochs: 100
+epochs: 50
 batch: 16
 optimizer: SGD
 lr0: 0.01
