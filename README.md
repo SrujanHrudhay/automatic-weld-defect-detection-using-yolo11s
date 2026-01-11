@@ -1,4 +1,5 @@
-# Automatic Weld Defect Detection Using YOLO11s
+# Automatic Weld Defect Detection Using YOLO11s     
+![YOLO](https://img.shields.io/badge/YOLO-111F68?style=for-the-badge&logo=yolo&logoColor=white)
 
 This repository contains the official implementation of the research project
 _**" Automatic Weld Defect Detection Using YOLO: A Deep Learning Approach to Industial Quality Assurance "**_, developed for academic
