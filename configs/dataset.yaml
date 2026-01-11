@@ -1,1 +1,15 @@
+path: dataset
 
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 7
+names:
+  0: Incomplete Penetration
+  1: cracks
+  2: good_weld
+  3: incomplete_fusion
+  4: porosity
+  5: spatter
+  6: undercut
