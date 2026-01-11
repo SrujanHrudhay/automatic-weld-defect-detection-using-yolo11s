@@ -43,7 +43,7 @@ The dataset size reflects real-world data scarcity commonly encountered
 in industrial inspection scenarios.
 
 Due to licensing restrictions, the dataset is not redistributed.
-Dataset organization instructions are provided in `data/README.md`.
+Dataset organization instructions are provided in [data/README.md](data/README.md).
 
 ---
 
@@ -62,6 +62,23 @@ automatic-weld-defect-detection-using-yolo11s/
 └── **_CITATION.cff_**  
 
 ---
+
+
+## Repository Structure
+
+automatic-weld-defect-detection-using-yolo11s/  
+├── **_[configs/](configs)_** # Model and dataset configuration files  
+├── **_[data/](data)_** # Dataset instructions and structure    
+├── **_[experiments/](experiments)_** # Experiment logs and summaries  
+├── **_[results/](results)_** # Generated figures and tables  
+├── **_[src/](src)_** # Training, evaluation, and inference scripts  
+├── **_[weights/](weights)/_** # Trained model weights (or download links)  
+├── **_[LICENSE](LICENSE)_**   
+├── **_[requirements.txt](requirements.txt)_**  
+├── **_[LICENSE](LICENSE)_**  
+└── **_[CITATION.cff](CITATION,cff)_**  
+
+
 
 ## Installation
 
@@ -119,3 +136,9 @@ If you use this work, please cite:
   year={2026}
 }
 ```
+
+## License
+
+This project is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for details.
+
